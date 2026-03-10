@@ -1,0 +1,19 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/server.json",
+  "schemaVersion": "2025-12-11",
+  "id": "io.github.striderlabs/expedia",
+  "name": "Strider Expedia MCP",
+  "description": "MCP server for Expedia travel booking — search flights, hotels, rental cars, and vacation packages; manage trips and complete bookings via browser automation.",
+  "version": "0.1.0",
+  "package": {
+    "name": "@striderlabs/mcp-expedia",
+    "registry": "npm"
+  },
+  "transports": [
+    {
+      "type": "stdio",
+      "command": "node",
+      "args": ["dist/index.js"]
+    }
+  ]
+}
